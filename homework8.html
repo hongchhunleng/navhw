@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    @font-face {
+      font-family: "kantumruy";
+      src: url("/Y2_SEM1/Web_programming/fonts/Kantumruy-Bold.ttf");
+    }
+
+    * {
+      cursor: url("photo/body.png") 6 6, auto;
+    }
+
+    .nav {
+      height: 110px;
+      background-color: rgb(247, 64, 217);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .category {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+    }
+
+    .text {
+      color: aliceblue;
+      font-family: "kantumruy";
+      margin-right: 10px;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .text:hover {
+      color: rgb(255, 255, 255);
+      cursor: url("photo/hover.png") 6 6, pointer;
+    }
+
+    .bar {
+      margin-left: 10px;
+    }
+
+    .bar:hover {
+      color: black;
+      background-color: rgb(254, 2, 157);
+      border-radius: 20px;
+    }
+  </style>
+  <title>Homework8</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <div><img width="80px" src="photo/logo.png" alt="" /></div>
+
+    <div>
+      <ul class="category">
+        <div class="bar">
+          <li>
+            <a class="text" href=""><img width="60px" src="photo/bear-svgrepo-com.svg" alt="" />គេហដ្ឋាន</a>
+          </li>
+        </div>
+        <div class="bar">
+          <li>
+            <a class="text" href=""><img width="60px" src="photo/crab-svgrepo-com.svg" alt="" />ផលិតផល</a>
+          </li>
+        </div>
+        <div class="bar">
+          <li>
+            <a class="text" href=""><img width="60px" src="photo/dinosaur-svgrepo-com.svg" alt="" />ប្រភេទ</a>
+          </li>
+        </div>
+        <div class="bar">
+          <li>
+            <a class="text" href=""><img width="60px" src="photo/lion-svgrepo-com.svg" alt="" />ម៉ាកយីហោ</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+
+    <div>
+      <a href=""><img width="50px" src="photo/cart-commerce-and-shopping-svgrepo-com.svg" alt=" /></a
+        >
+      </div>
+      <!-- <div><img src=" photo/images.jpg" alt="" />
+    </div>
+
+    <div>
+      <ul class="category">
+        <li><a class="text" href="">ផ្ទះ</a></li>
+        <li><a class="text" href="">ផលិតផល</a></li>
+        <li><a class="text" href="">ប្រភេទ</a></li>
+        <li><a class="text" href="">ប្រេន</a></li>
+      </ul>
+    </div>
+
+    <div><img src="photo/istockphoto-1206806317-612x612.jpg" alt="" /></div> -->
+  </nav>
+</body>
+
+</html>
